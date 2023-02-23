@@ -35,7 +35,7 @@
           <!--Fin barre de navigation-->
 
           <!--Galerie d'image-->
-          <div class="container galerie_image">
+          <div class="container galerie_image d-flex flex-wrap">
           <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
               <div class="card h-100" style=" border: 1px solid rgba(0, 0, 0, 0.4);">
@@ -94,10 +94,11 @@
               </div>
             </div>
             <div class="col">
-                <div class="card " style=" border: 1px solid rgba(0, 0, 0, 0.4);">
+                <div class="card h-100" style=" border: 1px solid rgba(0, 0, 0, 0.4);">
                   <img src="images/femmes/Wxl-_Port_Jackson-031.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a short card..</p>
                     <div class="d-flex justify-content-between align-items-center">
                       <a href="#"><i class="fa-solid fa-tags"></i></a>
                       <small class="text-muted">  CFA</small>
@@ -156,41 +157,37 @@
 		<div class="container">
 			<div class="row text-center text-xs-center text-sm-left text-md-left">
 				<div class="col-xs-12 col-sm-4 col-md-4">
-					<h5>Quick links</h5>
+					<h5>Informations</h5>
 					<ul class="list-unstyled quick-links">
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+						<li><a href="#"><i class="fa fa-angle-double-right"></i>Mentions légales</a></li>
+						<li><a href="#"><i class="fa fa-angle-double-right"></i>Presse</a></li>
+						<li><a href="#"><i class="fa fa-angle-double-right"></i>Fabrication</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Service Client</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="tel:0709765840"><i class="fa fa-angle-double-right"></i>Contactez-nous</a></li>
+						<li><a href="#"><i class="fa fa-angle-double-right"></i>Livraison & Retour</a></li>
+						<li><a href="#"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
 					</ul>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4">
 					<h5>Quick links</h5>
 					<ul class="list-unstyled quick-links">
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Videos</a></li>
-					</ul>
-				</div>
-				<div class="col-xs-12 col-sm-4 col-md-4">
-					<h5>Quick links</h5>
-					<ul class="list-unstyled quick-links">
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
-						<li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
-						<li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+						<li><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
+						<li><a href="#"><i class="fa fa-angle-double-right"></i>About</a></li>
+						<li><a href="#"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+						<li><a href="#"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+						<li><a href="#" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
 					</ul>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
 					<ul class="list-unstyled list-inline social text-center">
-						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="bi bi-facebook"></i></a></li>
-						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="bi bi-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="bi bi-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="bi bi-instagram"></i></a></li>
 					</ul>
 				</div>
 				<hr>
