@@ -12,22 +12,23 @@
 <body>
   <div class="container">
     <div class="title">Connectez-Vous</div>
-    <form action="#">
+    <form action="{{route('authenticate')}}" method="POST">
+      @csrf
       <div class="Informations-personnelles">
 
         <div class="input-box">
           <span class="details">Email</span>
-          <input type="email" placeholder="Entrez votre email" id="email" required>
+          <input type="email" placeholder="Entrez votre email" id="email" name="email">
         </div>
 
         <div class="input-box">
           <span class="details">Mot de passe</span>
-          <input type="password" placeholder="Entrez votre mot de passe" id="password" required>
+          <input type="password" placeholder="Entrez votre mot de passe" id="password" name="password">
         </div>
         
       </div>
      <div class="button">
-      <a href="connexion.html" class="btn text-decoration-none p-2 m-2 submit" id="submit">Connexion</a>
+      <button  type="submit" class="btn text-decoration-none p-2 m-2 submit" >Connexion</button>
      </div>
     </form>
   </div>

@@ -1,12 +1,15 @@
+/*---Importer des polices----*/
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'EB Garamond', serif !important;
 }
 
 body {
-    background: linear-gradient(208deg, rgba(221,82,120,1) 13%, rgba(84,178,211,1) 70%);
+    background: linear-gradient(208deg, #c3f0ca 13%, #faeee7 70%);
     background-size: 400% 400%;
     background-repeat: no-repeat;
     height: 100vh;
@@ -89,23 +92,24 @@ form .button{
     align-items: center;
 }
 
-form .button a{
+form .button .btn{
     padding: 10px 40px;
     text-decoration: none;
+    cursor: pointer;
     outline: none;
-    color: #2a2a2a;
+    color: #33272a;
     border: none;
     font-size: 18px;
     font-weight: bold;
     border-radius: 8px;
     letter-spacing: 1px;
-    background: rgb(255,142,60);
-    background: linear-gradient(120deg, rgba(255,142,60,1) 17%, rgba(239,240,243,1) 87%);
+    background: #ff8ba7;
+    background: linear-gradient(120deg, #ff8ba7 17%, #ffc6c7 87%);
 }
 
 form .button a:hover{
-   background: rgb(255,142,60);
-    background: linear-gradient(120deg, rgba(255,142,60,1) 17%, rgba(239,240,243,1) 87%);
+    background: #ff8ba7;
+    background: linear-gradient(120deg, #ff8ba7 17%, #ffc6c7 87%);
 }
 
 @media (max-width: 584px){

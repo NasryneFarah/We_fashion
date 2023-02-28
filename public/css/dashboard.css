@@ -1,0 +1,153 @@
+/*---Importer des polices----*/
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
+}
+
+body {
+    background: linear-gradient(208deg, #c3f0ca 13%, #faeee7 70%);
+    background-size: 400% 400%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    animation: animate 10s ease infinite;
+    }
+
+/*---Barre de navigation--*/
+
+.navbar{
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    background-color: whitesmoke;
+    box-shadow: 5px 2px 10px black;
+}
+
+.navbar-start{
+    width: 28%;
+}
+
+.navbar-start a{
+    color: #66EB9A;
+    font-family: 'Climate Crisis', cursive;
+    font-size: 2rem;
+}
+
+.navbar-end {
+    width: 56%;
+    justify-content: flex-end;
+}
+
+
+/*---Fin Barre de navigation--*/
+
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 5%;
+}
+
+.wrapper .btn-outline{
+    color: #33272a;
+    background: #fff;
+    border: 1px solid;
+   width: 75x;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 5px;
+   cursor: pointer;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     -webkit-transition-duration: 0.3s;
+     transition-duration: 0.3s;
+     -webkit-transition-property: box-shadox, transform;
+     transition-property: box-shadox, transform;
+}
+
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1) ;
+}
+
+.button{
+  position: relative;
+}
+
+/*---Button modifier--*/
+
+.btn-primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #33272a;
+    background: #fff;
+    border: 1px solid;
+    padding: 7px 20px;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;
+    border-color:#c3f0ca;
+}
+
+/*---Fin Button modifier--*/
+
+
+/*--- Button supprimer--*/
+.btn-error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #33272a;
+    background: #fff !important;
+    border: 1px solid;
+    padding: 7px 20px;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;
+    border-color: #ff8ba7;
+    }
+
+    .btn-error:hover{
+        box-shadow: 0 3px 8px #0003 !important;
+    }
+/*--- Fin Button supprimer--*/
+
+.action_btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: #33272a;
+    background: #fff;
+    border: 1px solid;
+    display: inline-block;
+    padding: 7px 20px;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;
+    border-color: #ff8ba7;
+}
+
+/*---Pagination--*/
+.container-pag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-pag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background: rgb(255,142,60);
+    background: linear-gradient(120deg, rgba(255,142,60,1) 17%, rgba(239,240,243,1) 87%);
+    color: #0d0d0d;
+    padding: 10px 40px;
+    border-radius: 6px !important; 
+}

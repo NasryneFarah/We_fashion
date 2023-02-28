@@ -19,7 +19,7 @@ class Products extends Model
         'publish',
         'product_status',
         'product_reference',
-        'categories_id',
+        'categorie_id',
     ];
 
     public function sizes(){
@@ -27,6 +27,6 @@ class Products extends Model
     }
 
     public function categorie(){
-        return $this->belongsTo(Categories::class, 'categories_id');
+        return $this->belongsTo(Categories::class, 'categorie_id');
     }
 }
